@@ -44,7 +44,7 @@ function Hero() {
             <div className="w-[70%] border rounded-lg h-72 flex flex-col gap-3 ">
                   <div className="flex items-center justify-between px-5 mixcolor py-2">
                     <p>A Little About me</p>
-                    <div className="flex border border-lime-900 text-neutral-700 p-1 px-3 rounded-lg">
+                    <div className="flex border border-lime-900 text-neutral-700 p-1 px-3 rounded-lg cursor-pointer hover:bg-lime-900 hover:text-white">
                       <p>Follow</p>
                       <p>+</p>
                     </div>
@@ -77,14 +77,14 @@ function Hero() {
 
            <div className="w-[70%] border h-44  rounded-lg">
            <div className=" px-5 mixcolor py-3">
-                    <p>A Little About me</p>
+                    <p >I Specialize In</p>
             </div>
 
             <div className="flex gap-5 w-24 h-24 mt-4 ml-5">
-                        <img src={img1} alt="" />
-                        <img src={img2} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img4} alt="" />
+                        <img className="cursor-pointer" src={img1}  alt="" />
+                        <img className="cursor-pointer" src={img2} alt="" />
+                        <img className="cursor-pointer" src={img3} alt="" />
+                        <img className="cursor-pointer" src={img4} alt="" />
              </div>
                   
            </div>
@@ -98,18 +98,18 @@ function Hero() {
 
             <div className="flex text-xs poppins-regular gap-3 mx-2 mt-6">
             
-                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 ">Skin Treatment</p>
-                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 ">Pregnancy</p>
-                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2">Period Doubts</p>
-                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 ">Endometriosis</p>
+                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer ">Skin Treatment</p>
+                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer ">Pregnancy</p>
+                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer">Period Doubts</p>
+                    <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer ">Endometriosis</p>
 
             </div>
 
             <div className="flex text-xs poppins-regular gap-3 mx-2 mt-6">
             
-            <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 ">Skin Treatment</p>
-            <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 ">Pregnancy</p>
-            <p className="bg-white border text-lime-900 rounded-2xl p-2">+5 more</p>
+            <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer ">Skin Treatment</p>
+            <p className="bg-neutral-100 text-lime-900 rounded-2xl p-2 cursor-pointer ">Pregnancy</p>
+            <p className="bg-white border text-lime-900 rounded-2xl p-2 cursor-pointer">+5 more</p>
 
     </div>
 
@@ -128,7 +128,7 @@ function Hero() {
               <hr className="w-72" />
             </div>
 
-            <div className="flex justify-between mx-6 mt-5 items-center gap-1 poppins-regular text-sm">
+            <div className="flex justify-between mx-6 mt-5 items-center gap-1 poppins-regular text-sm cursor-pointer">
               <div className="flex items-center gap-2">
                  <img src={homelogo} alt="" />
                  <div className="">
@@ -142,7 +142,7 @@ function Hero() {
               </div>
             </div>
 
-            <div className="flex justify-between mx-6 mt-7 items-center gap-1 poppins-regular text-sm">
+            <div className="flex justify-between mx-6 mt-7 items-center gap-1 poppins-regular text-sm cursor-pointer">
               <div className="flex items-center gap-2">
                  <img src={homelogo} alt="" />
                  <div className="">
@@ -219,16 +219,16 @@ function Hero() {
                </div>
 
                <div className="flex text-sm justify-evenly mt-8 ">
-                   <div className="border rounded-md p-2 px-6 hover:bg-lime-50 hover:text-lime-900">
+                   <div className="border rounded-md p-2 px-6 hover:bg-lime-50 hover:text-lime-900 cursor-pointer ">
                        <p className="font-semibold">In-clinic</p>
                        <p className="text-neutral-500">45 Mins</p>
                    </div>
-                  <div className="border rounded-md p-2 px-6  hover:bg-lime-50 hover:text-lime-900">
+                  <div className="border rounded-md p-2 px-6  hover:bg-lime-50 hover:text-lime-900 cursor-pointer">
                   <p className="font-semibold">Video</p>
                   <p className="text-neutral-500">45 Mins</p>
                   </div>
 
-                  <div className="border rounded-md p-2 px-6  hover:bg-lime-50 hover:text-lime-900">
+                  <div className="border rounded-md p-2 px-6  hover:bg-lime-50 hover:text-lime-900 cursor-pointer">
                   <p className="font-semibold">Chat</p>
                   <p className="text-neutral-500">10 Mins</p>
                   </div>
