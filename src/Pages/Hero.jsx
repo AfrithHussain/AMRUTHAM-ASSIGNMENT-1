@@ -6,10 +6,10 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
-import home from '../assets/homelogo.png'
+import homelogo from '../assets/homelogo.png'
 import { FaStar } from "react-icons/fa6";
-import UserProfile from '../assets/userprofile.png'
-import UserProfile2 from '../assets/Frame 1000006264 (1).png'
+import userprofile from '../assets/userprofile.png'
+import friendprofile from '../assets/friendprofile.png'
 
 import { Card, CardContent } from "../components/ui/card";
 import {
@@ -130,7 +130,7 @@ function Hero() {
 
             <div className="flex justify-between mx-6 mt-5 items-center gap-1 poppins-regular text-sm">
               <div className="flex items-center gap-2">
-                 <img src={home} alt="" />
+                 <img src={homelogo} alt="" />
                  <div className="">
                   <p>Midtown Medical Clinic</p>
                   <p className="text-neutral-600">Senior doctor</p>
@@ -144,7 +144,7 @@ function Hero() {
 
             <div className="flex justify-between mx-6 mt-7 items-center gap-1 poppins-regular text-sm">
               <div className="flex items-center gap-2">
-                 <img src={home} alt="" />
+                 <img src={homelogo} alt="" />
                  <div className="">
                   <p>Midtown Medical Clinic</p>
                   <p className="text-neutral-600">Senior doctor</p>
@@ -165,7 +165,7 @@ function Hero() {
             </div>
               
               <div className="w-[85%] mx-auto rounded-md bg-neutral-100 border h-40 mt-5 flex flex-col gap-4 justify-center  ">
-                <img className="w-[360px] mx-2 " src={UserProfile} alt="" />
+                <img className="w-[360px] mx-2 " src={userprofile} alt="" />
                
                     <div className='flex mx-2 '>
                                          <FaStar className="flex text-orange-400"/>
@@ -181,7 +181,7 @@ function Hero() {
 
 
                <div className="w-[85%] mx-auto rounded-md bg-neutral-100 border h-40 mt-7 flex flex-col gap-4 justify-center  ">
-                <img className="w-[360px] mx-2 " src={UserProfile2} alt="" />
+                <img className="w-[360px] mx-2 " src={friendprofile} alt="" />
                
                     <div className='flex mx-2 '>
                                          <FaStar className="flex text-orange-400"/>

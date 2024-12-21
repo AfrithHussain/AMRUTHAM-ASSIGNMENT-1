@@ -1,5 +1,5 @@
-import Banner from '../assets/banner.png'
-import Profile from '../assets/profile.png'
+import banner from '../assets/banner.png'
+import profile from '../assets/profile.png'
 import { MdVerified } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
 import Hero from './Hero';
@@ -8,7 +8,7 @@ function ProfileBanner() {
   return (
     <div className="mx-20 mt-10">
          <div className="w-full  h-52 border rounded-t-2xl">
-          <img className='h-[220px] rounded-t-2xl w-full' src={Banner} alt="" />
+          <img className='h-[220px] rounded-t-2xl w-full' src={banner} alt="" />
          </div>
          
 
@@ -17,7 +17,7 @@ function ProfileBanner() {
 
             {/* DIV 1 */}
             <div className="flex items-center gap-6">
-              <img src={Profile} className='w-32 object-cover rounded-full h-32 -translate-y-5 ' alt="" />
+              <img src={profile} className='w-32 object-cover rounded-full h-32 -translate-y-5 ' alt="" />
               <div className="">
                 <div className="flex items-center text-lg gap-1 ">
                 <h1 className='text-neutral-800 font-bold text-xl'>Dr. Bruce Willis </h1>
